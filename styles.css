@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  margin-top: 1.5rem;
+  margin-left: 55rem;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  z-index: 10;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 10rem;
+}
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.section-home {
+  background-image: url('./assets/background-1.jpeg');
+}
+
+.section-features {
+  background-image: url('./assets/background-2.jpeg');
+}
+
+.section-learn {
+  background-image: url('./assets/background-3.jpeg');
+}
+
+
+.section-about {
+  background-image: url('./assets/background-4.jpeg')
+}
+
+.home-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  position: relative;
+  top: -11.5rem;
+  left: 5rem;
+  cursor: default;
+}
+
+.home-title {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.home-subtitle1 {
+  margin-top: 1.5rem;
+}
+
+.home-subtitle1,
+.home-subtitle2 {
+  opacity: 0.75;
+}
+
+button {
+  position: relative;
+  top: 5rem;
+  left: -25rem;
+}
+
+button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s, box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10rem;
+}
+
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.features-content {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: default;
+  position: relative;
+  top: -2rem;
+ 
+}
+
+.features-title {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.features-subtitle1 {
+  margin-top: 1.5rem;
+}
+
+
+.features-subtitle1,
+.features-subtitle2 {
+  opacity: 0.75;
+}
+
+
+.table {
+  height: 5rem;
+  position: relative;
+  top: 3rem;;
+} 
+
+.table {
+  height: 18rem;
+}
+
+.about-content {
+  width:   80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: default;
+ 
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.about-subtitle1 {
+  margin-top: 1.5rem;
+  opacity: 0.75;
+}
+
+.card {
+  height: 25rem;
+  margin-top: 2.3rem;
+  margin-right: 3rem;
+}
+
+
+
